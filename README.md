@@ -1,5 +1,8 @@
 
-# 📝 **To-Undo List** – Remove one by one rather than adding
+<div style="display: flex; align-items: center;">
+<img src="assets/logo.png" style="width: 60px; height: 60px;">
+<h1><strong>To-Undo List</strong> – Remove one by one rather than adding</h1>
+</div>
 
 **A beautifully crafted undo list for tracking life’s regrets, missteps, and decisions worth reconsidering.** 🚀  
 
