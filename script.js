@@ -62,12 +62,12 @@ document.addEventListener("DOMContentLoaded", function() {
         items.forEach(item => {
             let newItem = document.createElement("div")
             newItem.classList.add("item-card")
-            if (item.completed) newItem.classList.add("completed")
-            else newItem.classList.remove("completed")
+            // if (item.completed) newItem.classList.add("completed")
+            // else newItem.classList.remove("completed")
             newItem.innerHTML = `
                 <input type="checkbox" class="toggle-completed" data-id="${item.id}" ${item.completed ? 'checked' : ''}>
                 <div class="item-content">
-                    <p class="item-title">${item.text}</p>
+                    <p class="item-title ${(item.completed)? "completed" : ""}">${item.text}</p>
                     <div class="item-details">
                         <span class="item-category ${item.category}">${item.category}</span>
                         <span class="item-date">${formatDate(item.createdAt)}</span>
