@@ -1,0 +1,39 @@
+@media (max-width: 1100px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 90%;
+    }
+    #category-select-input {
+        width: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .content-container {
+        padding: 15px;
+    }
+    #category-select-input {
+        width: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    #tagline {
+        padding: 0px 10px;
+        max-width: 100%;
+    }
+    .category {
+        font-size: 10px;
+    }
+    #category-select-input{
+        width: 80px;
+    }
+}
