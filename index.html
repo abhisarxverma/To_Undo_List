@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 </head>
@@ -22,17 +22,19 @@
             <p id="tagline">Instead of Adding, Try To Remove One by one, and You will live Happily.</p>
         </div>
         <div class="content-container">
-            <div class="input-row">
-                <input required autofocus type="text" name="undo-item" id="text-input" placeholder="What do you want to undo today?">
-                <select name="undo-item" id="category-select-input">
-                    <option value="Life">Life</option>
-                    <option value="Work">Work</option>
-                    <option value="Relationships">Relationships</option>
-                    <option value="Habits">Habits</option>
-                    <option value="Other">Other</option>
-                </select>
-                <button type="submit" id="add-new-button">Add</button>
-            </div>
+            <!-- <div class="input-row"> -->
+                <form class="input-row">
+                    <input required autofocus type="text" name="undo-item" id="text-input" placeholder="What do you want to undo today?">
+                    <select name="undo-item" id="category-select-input">
+                        <option value="Life">Life</option>
+                        <option value="Work">Work</option>
+                        <option value="Relationships">Relationships</option>
+                        <option value="Habits">Habits</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <button type="submit" id="add-new-button">Add</button>
+                </form>
+            <!-- </div> -->
 
             <div class="category-row">
                 <span class="category category-active" id="All">All</span>

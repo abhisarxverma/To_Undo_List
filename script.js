@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const filterBtns = document.querySelectorAll(".category")
     const progressBar = document.getElementById('progressBar');
     const progressText = document.getElementById('progressText');
+    const newItemForm = document.querySelector("form.input-row")
 
     let undoItems = getItems()
     let currentFilter = "All"
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     checkEmpty()
     if (undoItems.length != 0) renderItems()
 
-    addUndoButton.addEventListener("click", function(e) {
+    newItemForm.addEventListener("submit", function(e) {
         e.preventDefault();
 
         let title = capitalizeFirstLetter(undoInput.value.trim())
@@ -38,6 +39,8 @@ document.addEventListener("DOMContentLoaded", function() {
         renderItems()
 
         undoInput.value = ""
+
+        return false;
     })
 
     filterBtns.forEach(btn => {
