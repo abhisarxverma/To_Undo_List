@@ -23,4 +23,4 @@ The **concept** of the To-Undo List is entirely mine, designed to create a space
 [🔗 Deployed Website](#) *(Replace this with your actual link)*  
 
 ## 🖼️ Screenshot  
-<img src="image.png" style="object-fit: contain">  
+<img src="assets/image.png" style="object-fit: contain">  
