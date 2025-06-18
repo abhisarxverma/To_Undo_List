@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 750px) {
     .input-row {
         height: auto;
         display: grid;

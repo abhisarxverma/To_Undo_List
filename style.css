@@ -30,7 +30,7 @@ body {
     padding: 20px 0px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 80px auto auto;
     gap: 40px;
     align-items: start;
     justify-content: center;
@@ -63,6 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    height: auto;
 }
 
 .quote-author {
@@ -83,7 +84,7 @@ body {
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: auto auto auto auto;
     gap: 20px;
 }
 
